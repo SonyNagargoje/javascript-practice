@@ -85,5 +85,5 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn'));//o/p: is true //if propert
 //   "price": " free"
 
 //  }// this is API declaration 
-
+//
   
