@@ -64,3 +64,26 @@ console.log(Object.entries(tinderUser));//o/p:[ 'id', 'name', 'isLoggedIn' ][ [ 
 
 //if  you search some value in oject then this methode is use
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));//o/p: is true //if property is present then result is true another result is false
+
+  // Object Destructuring
+
+  const course ={
+    coursename: "js in hindi",
+    price:"999",
+    courseInstructor: "hitesh"
+  }
+  //course.courseInstructor
+
+  const{courseInstructor: instructor} = course// destructuring
+
+  //console.log(courseInstructor);//o/p  is hotesh
+  console.log(instructor);//o/p is hitesh   this two line o/p is same 
+
+ //{
+//   "name": "hitesh",
+//   "coursename":"js in  hindi",
+//   "price": " free"
+
+//  }// this is API declaration 
+
+  
